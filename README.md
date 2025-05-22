@@ -51,12 +51,14 @@ Este é um sistema completo de gerenciamento de tarefas (To-Do List), com **back
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 
+🛠️ Configurando o Banco de Dados (MySQL)
+Antes de rodar a aplicação, você precisa configurar o banco de dados no backend. Siga os passos abaixo:
 
-spring.datasource.url=jdbc:mysql://localhost:3306/todolist
-spring.datasource.username=root
-spring.datasource.password=rodrigo
-spring.jpa.hibernate.ddl-auto=update
+1. Crie o banco de dados no MySQL
+Abra o MySQL e crie um banco com o nome desejado. Exemplo:
 
-
-./mvnw spring-boot:run
-
+sql
+Copiar
+Editar
+CREATE DATABASE todolist;
+📌 Dica: Você pode usar o MySQL Workbench, DBeaver ou linha de comando.
