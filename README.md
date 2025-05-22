@@ -50,3 +50,13 @@ Este é um sistema completo de gerenciamento de tarefas (To-Do List), com **back
 1. Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
+
+
+spring.datasource.url=jdbc:mysql://localhost:3306/todolist
+spring.datasource.username=root
+spring.datasource.password=rodrigo
+spring.jpa.hibernate.ddl-auto=update
+
+
+./mvnw spring-boot:run
+
